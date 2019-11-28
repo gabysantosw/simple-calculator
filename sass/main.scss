@@ -16,7 +16,7 @@ $neutro: hsl(185, 10%, 60%);
 
 // effects
 $shadow: hsla(185, 20%, 10%, .5);
-$light-shadow: hsla(185, 10%, 98%, .5);
+$light-shadow: hsla(185, 10%, 98%, .8);
 $button-overlay: hsla(185, 10%, 98%, .05);
 
 // --- functions 
@@ -80,10 +80,10 @@ body {
   
   &__screen {
     margin-bottom: 1rem;
-    padding: calc(.5rem + 1vh);
+    padding: calc(.1rem + 1vh) calc(.5rem + 1vh);
     border-radius: .5rem;
     background-color: $dark;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     text-align: right;
     box-shadow: 0 .1rem 0 .25rem inset $shadow;
   }

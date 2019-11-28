@@ -2,6 +2,7 @@
 
 ## 💚 Versions
 
+- v0.2 - improved buttons layout
 - v0.11 - fixed layout issue on mobile safari (reset button padding)
 - v0.1 - basic operations
 
