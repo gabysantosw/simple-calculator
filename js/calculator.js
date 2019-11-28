@@ -31,7 +31,6 @@ const screen = document.querySelector('.js-screen');
 // when button gets clicked
 // receives the value of the pressed button -> given by listener in init
 function buttonClick(value) {
-  console.log(input, currentTotal, previousOperator);
   if(isNaN(value)) {
     // no number was pressed 
     handleSymbol(value);
@@ -39,8 +38,6 @@ function buttonClick(value) {
     // number was pressed
     handleNumber(value);
   }
-
-  console.log(input, currentTotal, previousOperator);
 
   // display accordingly
   screen.innerText = input;
