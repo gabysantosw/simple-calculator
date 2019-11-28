@@ -202,10 +202,11 @@ body {
 }
 
 // ------- LAYOUT
-body {
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: purple;
 }
 
 // ------- PAGES 
